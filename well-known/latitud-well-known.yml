@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://latitud.com/.well-known/*
+host: https://latitud.com
+result: none-published
+notes: >-
+  Every standard discovery document was probed and returned 404. Latitud publishes
+  no /.well-known/ discovery surface. This file records the negative result so
+  later pipeline runs do not re-probe blindly; no WellKnown or SecurityTxt pointer
+  is wired into apis.yml because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404

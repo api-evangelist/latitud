@@ -1,0 +1,40 @@
+# Latitud
+
+> Latitud is an early-stage venture capital firm and founder platform writing first
+> checks for Latin American founders, bridging the LatAm startup ecosystem to Silicon
+> Valley. Its flagship program is the Latitud Fellowship, an eight-week remote program
+> for pre-founders, dealmakers and technical builders ending in a week-long roadshow in
+> San Francisco, investing a $62,500 ideation check on a SAFE for a 2.5 percent stake in
+> a cohort of eight fellows. Latitud publishes no public API, developer portal, SDKs or
+> machine-readable specifications.
+
+Generated: 2026-07-19
+Method: generated (from apis.yml and repo artifacts; provider publishes no /llms.txt — probed 404)
+
+## APIs
+
+Latitud does not publish a public API. There is no developer portal, no API
+documentation, no OpenAPI/AsyncAPI specification, and no /.well-known/ discovery
+surface (all probed 404 on 2026-07-19).
+
+## Programs
+
+- [Latitud Fellowship](https://latitud.com/fellowship): Eight-week remote pre-seed program for LatAm pre-founders; $62,500 SAFE for 2.5%; cohort of eight; October 2 – November 6, 2026 with an SF roadshow.
+- [Apply](https://apply.latitud.com/r/gDzAAd): Fellowship application form.
+- [Portfolio](https://latitud.com/portfolio): Companies Latitud has backed.
+
+## Web properties
+
+- [Website](https://latitud.com/)
+- [GitHub organization](https://github.com/latitud): Two public repositories, both forks, one archived. No first-party libraries.
+- [LinkedIn](https://www.linkedin.com/school/latitudlatam/)
+- [X / Twitter](https://x.com/latitudlatam)
+- [Instagram](https://www.instagram.com/latitudlatam/)
+- [YouTube](https://www.youtube.com/latitudlatam)
+- [Podcast](https://open.spotify.com/show/0dnDFI8sk9veyQ3yJwr2cm)
+
+## Artifacts in this profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/latitud/refs/heads/main/apis.yml): APIs.json 0.20 profile.
+- security/latitud-domain-security.yml: Probed TLS/HSTS/DNS posture — TLSv1.3, HSTS max-age 31536000, SPF and DMARC present (policy none), no DNSSEC, no CAA.
+- well-known/latitud-well-known.yml: Recorded negative result for the /.well-known/ discovery probe.
