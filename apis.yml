@@ -1,22 +1,81 @@
 aid: latitud
 name: Latitud
-description: Latitud is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Latitud is an early-stage venture capital firm and founder platform that
+  writes first checks for Latin American founders, positioning itself as a bridge between
+  the LatAm startup ecosystem and Silicon Valley. Its flagship program is the Latitud
+  Fellowship, an eight-week remote program for pre-founders, dealmakers and technical
+  builders that ends with a week-long roadshow in San Francisco, and which invests a
+  $62,500 ideation check on a SAFE for a 2.5 percent stake in a cohort of eight fellows.
+  Latitud also runs a portfolio support practice, a mentor network drawn from companies
+  such as Mercado Libre, Vercel, Auth0 and Cornershop, and a Spanish- and Portuguese-language
+  media surface including a podcast and community channels. Latitud publishes no public
+  API, developer portal, SDKs or machine-readable specifications; its public surface is
+  a three-page marketing site (home, fellowship, portfolio) plus an application form, so
+  this profile is an identity and web-properties record rather than an API profile.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/TQRRlxytU5PnXrijy4dN2hYGYw.png
 url: https://raw.githubusercontent.com/api-evangelist/latitud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Capital
+- Startups
+- Latin America
+- Accelerator
+- Fellowship
+- Early Stage
+- Investment
 apis: []
+common:
+- type: DomainSecurity
+  url: security/latitud-domain-security.yml
+- type: LLMsTxt
+  url: llms/latitud-llms.txt
+- type: Website
+  url: https://latitud.com/
+- type: SignUp
+  url: https://apply.latitud.com/r/gDzAAd
+- type: GitHubOrganization
+  url: https://github.com/latitud
+- type: Portfolio
+  url: https://latitud.com/portfolio
+- type: Fellowship
+  url: https://latitud.com/fellowship
+- type: LinkedIn
+  url: https://www.linkedin.com/school/latitudlatam/
+- type: Twitter
+  url: https://x.com/latitudlatam
+- type: Instagram
+  url: https://www.instagram.com/latitudlatam/
+- type: YouTube
+  url: https://www.youtube.com/latitudlatam
+- type: Podcast
+  url: https://open.spotify.com/show/0dnDFI8sk9veyQ3yJwr2cm
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
