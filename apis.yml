@@ -12,6 +12,17 @@ description: 'Latitud is an early-stage venture capital firm and founder platfor
   API, developer portal, SDKs or machine-readable specifications; its public surface is
   a three-page marketing site (home, fellowship, portfolio) plus an application form, so
   this profile is an identity and web-properties record rather than an API profile.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
