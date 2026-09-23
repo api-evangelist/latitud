@@ -3,21 +3,24 @@ method: searched
 source: live probe of https://latitud.com/.well-known/*
 host: https://latitud.com
 result: none-published
-notes: >-
-  Every standard discovery document was probed and returned 404. Latitud publishes
-  no /.well-known/ discovery surface. This file records the negative result so
-  later pipeline runs do not re-probe blindly; no WellKnown or SecurityTxt pointer
-  is wired into apis.yml because nothing was found.
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-- path: /llms.txt
-  status: 404
+notes: Every standard discovery document was probed and returned 404. Latitud publishes no /.well-known/
+  discovery surface. This file records the negative result so later pipeline runs do not re-probe blindly;
+  no WellKnown or SecurityTxt pointer is wired into apis.yml because nothing was found.
+hosts:
+- host: https://latitud.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
