@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "latitud",
+    "captured_at": "2026-10-11T190507",
+    "source_url": "https://latitud.com/",
+    "source_type": "Website",
+    "file": "latitud-2026-10-11T190507.png",
+    "bytes": 1656194,
+    "capture": "playwright-local"
+  }
+]
